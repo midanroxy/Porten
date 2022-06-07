@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/post-no-bills-jaffna');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #FFFFFF;
+    font-family: 'PT Sans';
+    background-color: #000000;
+}
+
+/* Header */
+
+header {
+    background-color: #000000;
+    min-height: 44px;
+}
+
+header span {
+    color: #969696;
+    font-size: 12px;
+}
+
+header .container div {
+    display: inline;
+}
+
+.login {
+    text-align: right;
+    float: right;
+}
+
+/* Nav */
+
+nav {
+    background-color: #0F0F0F;;
+}
+
+.navbar-brand {
+    font-family: 'Post No Bills Jaffna';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+.nav-link {
+    font-family: 'PT Sans' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 31px 20px !important;
+    margin: 0;
+}
+
+.nav-link:hover {
+    background-color: #1F1F1F;
+}
+
+.nav-icon {
+    padding: 31px 20px;
+}
+
+.nav-icon:hover {
+    background-color: #1F1F1F;;
+}
+
+.cart {
+    margin-left: 20px;
+}
+
+.search {
+    padding-left: 20px;
+}
+
+
+/* Main */
+
+.site-content {
+    background-image: url('img/main-back.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.site-logo {
+    margin: 160px auto 0;
+    border: 4px solid #FFFFFF;
+    padding: 93px 68px;
+}
+
+.logo {
+    font-family: 'Post No Bills Jaffna';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    text-align: center;
+    padding-top: 30px;
+    line-height: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+
+.location {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 6px;
+}
+
+article p {
+    margin-top: 80px;
+    margin-bottom: 155px;
+    max-width: 730px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/*Collection */
+
+.collection {
+    background-color: #000000;
+}
+
+h2 {
+    margin-top: 93px;
+    margin-bottom: 50px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/* New Collection */
+
+.collection .row .new-collection{
+    background-image: url('img/new-collection.png');
+    background-position: center;
+    background-size: cover;
+    height: 730px;
+}
+
+.new-collection h2 {
+    margin-top: 484px;
+    margin-bottom: 25px;
+}
+
+hr {
+    border: 1px solid #FFFFFF;
+    width: 120px;
+    margin: 0 auto;
+    opacity: 1;
+}
+
+
+/* Old Collection */
+
+.old-collection h2 {
+    margin-bottom: 40px;
+}
+
+.collection .old-collection {
+    background-image: url('img/old-collection.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.info {
+    max-width: 471px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    margin: 40px auto;
+}
+
+.collection a {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 12px 28px;
+    border: 1px solid #FFFFFF;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.collection a:hover {
+    background-color: #1F1F1F;
+}
+
+
+/*New Arrivals*/
+
+.new-arrivals {
+    margin-bottom: 100px;
+    background-color: #000000;
+}
+
+.new-arrivals hr {
+    margin-bottom: 80px;
+}
+
+/* Grid */
+
+.card {
+    background-color: #191B1C;
+    border: none;
+    border-radius: 0;
+}
+
+.card-box {
+    max-width: 284px;
+}
+
+.card-body {
+    background-color: #000000;
+    font-family: 'Playfair Display';
+    padding: 25px 0 0; 
+}
+
+.card-img {
+    padding: 55px 22px;
+}
+
+.card-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.card-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #D0D0D0;
+}
+
+/*Brand*/
+
+.brand {
+    background-color: #0F0F0F;
+    padding-top: 50px;
+    padding-bottom: 74px;
+}
+
+.brand h2 {
+    margin-bottom: 40px;
+}
+
+
+/* About*/
+
+.about {
+    padding-top: 80px;
+    background-image: url(img/main-back.png);
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.about .container {
+    padding: 0;
+}
+
+.about h2 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+.about p {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 0;
+}
+
+.about a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    padding: 10px 20px;
+    background-color: #0F0F0F;
+    color: #D0D0D0;
+    text-align: center;
+}
+
+.about a:hover {
+    background-color: #1F1F1F;
+}
+
+.about .second-row {
+    margin-top: 20px;
+}
+
+.about .col-md-7, .col-md-5 {
+    padding: 0;
+}
+
+.about input {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 0;
+    border: none;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.about button {
+    border-radius: 0;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    padding: 10px 20px;
+    background-color: #0F0F0F;
+    border: none;
+}
+
+footer {
+    min-height: 50px;
+    background-color: #0F0F0F;
+}
+
+footer p {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+    padding: 17px 0;
+}
+
+footer .text-right {
+    font-weight: bold;
+    text-decoration-line: underline;
+}
